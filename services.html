@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | B.D. Motshegwa & Co.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .hero-services {
+            background: linear-gradient(135deg, #0a2b3e 0%, #1a4a6f 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .service-card {
+            transition: transform 0.3s ease;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            background-color: #0a2b3e;
+            color: white;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .btn-primary-custom {
+            background-color: #d4af37;
+            border: none;
+            color: #0a2b3e;
+            font-weight: bold;
+        }
+        .btn-primary-custom:hover {
+            background-color: #b8960c;
+            color: white;
+        }
+        .service-icon {
+            font-size: 3rem;
+            color: #1a4a6f;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">B.D. Motshegwa & Co.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="markets.html">Markets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-services">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Our Services</h1>
+            <p class="lead">Comprehensive investment banking solutions</p>
+        </div>
+    </section>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card service-card h-100 p-4 text-center">
+                    <i class="fas fa-chart-line service-icon"></i>
+                    <h4>Financial Advisory</h4>
+                    <p>Strategic guidance on investments, restructuring, valuations, and financial planning for businesses and individuals.</p>
+                    <ul class="text-start mt-3">
+                        <li>Business valuation</li>
+                        <li>Debt restructuring</li>
+                        <li>Financial due diligence</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card h-100 p-4 text-center">
+                    <i class="fas fa-handshake service-icon"></i>
+                    <h4>Mergers & Acquisitions</h4>
+                    <p>End-to-end M&A support from target identification to post-merger integration.</p>
+                    <ul class="text-start mt-3">
+                        <li>Buy-side advisory</li>
+                        <li>Sell-side representation</li>
+                        <li>Cross-border transactions</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card h-100 p-4 text-center">
+                    <i class="fas fa-building service-icon"></i>
+                    <h4>Capital Raising</h4>
+                    <p>Helping companies secure funding through equity, debt, and alternative financing.</p>
+                    <ul class="text-start mt-3">
+                        <li>Private placements</li>
+                        <li>Venture capital connections</li>
+                        <li>IPO readiness</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6 mx-auto text-center">
+                <div class="card service-card p-4">
+                    <i class="fas fa-chart-simple service-icon"></i>
+                    <h4>Market Research & Insights</h4>
+                    <p>Data-driven reports and analysis on Botswana and regional markets.</p>
+                    <a href="markets.html" class="btn btn-primary-custom mt-3">Explore Market Insights →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 B.D. Motshegwa & Co. | All Rights Reserved</p>
+            <p>Botswana | Investment Banking & Financial Advisory</p>
+            <p><a href="#" class="text-white me-3">Privacy Policy</a><a href="#" class="text-white">Terms of Use</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
