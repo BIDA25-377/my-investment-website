@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | B.D. Motshegwa & Co.</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .hero-about {
+            background: linear-gradient(135deg, #0a2b3e 0%, #1a4a6f 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .card-service {
+            transition: transform 0.3s ease;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .card-service:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            background-color: #0a2b3e;
+            color: white;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .btn-primary-custom {
+            background-color: #d4af37;
+            border: none;
+            color: #0a2b3e;
+            font-weight: bold;
+        }
+        .btn-primary-custom:hover {
+            background-color: #b8960c;
+            color: white;
+        }
+        .team-img-placeholder {
+            background-color: #e9ecef;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">B.D. Motshegwa & Co.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="markets.html">Markets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-about">
+        <div class="container">
+            <h1 class="display-4 fw-bold">About B.D. Motshegwa & Co.</h1>
+            <p class="lead">Trusted Investment Banking Partner in Botswana</p>
+        </div>
+    </section>
+
+    <!-- Company Overview -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+                <h2>Our Story</h2>
+                <p class="lead">Founded with a vision to empower investors, entrepreneurs, youth and businesses across Botswana.</p>
+                <p>B.D. Motshegwa & Co. is a premier investment banking firm dedicated to providing financial advisory, 
+                    capital raising, merger & acquisition services. We combine global expertise with local knowledge to
+                     help our clients achieve sustainable growth.</p>
+                <p>Our team has successfully closed over 50 transactions, ranging from startup funding rounds to multi-million 
+                    pula corporate mergers.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mission & Vision -->
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card card-service h-100 text-center p-4">
+                    <i class="fas fa-bullseye fa-3x mb-3" style="color:#d4af37;"></i>
+                    <h4>Our Mission</h4>
+                    <p>To democratize access to investment banking expertise and help local businesses thrive in the global economy.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-service h-100 text-center p-4">
+                    <i class="fas fa-eye fa-3x mb-3" style="color:#d4af37;"></i>
+                    <h4>Our Vision</h4>
+                    <p>To become Botswana’s most trusted financial partner, driving economic growth through 
+                        smart capital solutions and data-driven financial strategies.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-5">Leadership Team</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="team-img-placeholder">
+                    <i class="fas fa-user-circle fa-5x" style="color:#6c757d;"></i>
+                </div>
+                <h5>Boleng Motshegwa</h5>
+                <p class="text-muted">CEO</p>
+                <p>15+ years in investment banking and corporate finance.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="team-img-placeholder">
+                    <i class="fas fa-user-circle fa-5x" style="color:#6c757d;"></i>
+                </div>
+                <h5>P. Motshegwa</h5>
+                <p class="text-muted">Head of M&A</p>
+                <p>Expert in cross-border mergers and acquisitions.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="team-img-placeholder">
+                    <i class="fas fa-user-circle fa-5x" style="color:#6c757d;"></i>
+                </div>
+                <h5>Thabo Gerold</h5>
+                <p class="text-muted">Senior Analyst</p>
+                <p>Market research and financial modeling specialist.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 B.D | Motshegwa & Co. | All Rights Reserved</p>
+            <p>Botswana | Investment Banking & Financial Advisory</p>
+            <p>
+                <a href="#" class="text-white me-3">Privacy Policy</a>
+                <a href="#" class="text-white">Terms of Use</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
